@@ -1,0 +1,47 @@
+*{
+    font-family: "Roboto", Arial;
+    display: flex;
+}
+
+body {
+ display: flex;
+ flex-direction: column;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+h2 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+a {
+    font-size: 18px;
+    margin: 10px;
+    color: #E5E7EB;
+}
+
+.header-container, .hero-container{
+    background-color: #1F2937;
+}
+
+.info-container, cta-container{ 
+    background-color: #F9FAF8;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+}
+
+
+.header-container{
+    padding-inline: 20%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
